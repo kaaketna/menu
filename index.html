@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-
+    <link rel="icon" type="image/png" href="logo.png">
     <style>
         .arsenal-sc-regular {
             font-family: "Arsenal SC", sans-serif;
@@ -58,6 +58,15 @@
         .special-a-link:hover {
             color: #c99d54;
         }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+            display: none;
+            color: #fff;
+            background-color: #c99d54;
+        }
     </style>
     <style>
         .menu #menu-cat {
@@ -102,7 +111,7 @@
                 <img src="logo.png" class="img-fluid">
             </div>
         </div>
-        <div class="row my-5 menu" id="menu">
+        <div class="row my-5 menu">
             <div class="col-12">
                 <ul id="menu-cat">
                     <li data-filter="*" class="cat-active">Show All</li>
@@ -121,12 +130,13 @@
                 </ul>
             </div>
         </div>
-        	<hr class="mx-5 my-5 border border-white">
-        <!--Signature Cocktails-->
-        <div class="row mx-2">
-            <div class="col-12 text-start">
-                <h1 class="custom-gold-txt mb-3 display-5 arsenal-sc-bold">Signature Cocktails</h1>
-                <div class="col-12 mb-3">
+        	<hr class="my-5 border border-white">
+        <div class="vad-menu">
+            <!--Signature Cocktails-->
+            <div class="row col-12 mx-2 menu-item cat-sigcocktails">
+                <div class="text-start">
+                    <h1 class="custom-gold-txt mb-3 display-5 arsenal-sc-bold">Signature Cocktails</h1>
+                    <div class="col-12 mb-3">
 <h3 class="display-6 custom-gold-txt mb-0 fst-italic">Ginasma</h3>
 	<div class="d-flex justify-content-between">
 		<div>Glass</div>
@@ -147,14 +157,15 @@
 		<div>10 $</div>
 	</div>
 </div>
+                </div>
+                	<hr class="my-5 border border-white">
             </div>
-        </div>
-        	<hr class="mx-5 my-5 border border-white">
-        <!--International Cocktails-->
-        <div class="row mx-2">
-            <div class="col-12 text-start">
-                <h1 class="custom-gold-txt mb-3 display-5 arsenal-sc-bold">International Cocktails</h1>
-                <div class="col-12 mb-3">
+
+            <!--International Cocktails-->
+            <div class="row col-12 mx-2 menu-item cat-intcocktails">
+                <div class="text-start">
+                    <h1 class="custom-gold-txt mb-3 display-5 arsenal-sc-bold">International Cocktails</h1>
+                    <div class="col-12 mb-3">
 <h3 class="display-6 custom-gold-txt mb-0 fst-italic">Gin Basil</h3>
 	<div class="d-flex justify-content-between">
 		<div>Glass</div>
@@ -224,14 +235,15 @@
 		<div>10 $</div>
 	</div>
 </div>
+                </div>
+                	<hr class="my-5 border border-white">
             </div>
-        </div>
-        	<hr class="mx-5 my-5 border border-white">
-        <!--Single Malt Whisky-->
-        <div class="row mx-2">
-            <div class="col-12 text-start">
-                <h1 class="custom-gold-txt mb-3 display-5 fw-semibold">Single Malt Whisky</h1>
-                <div class="col-12 mb-3">
+
+            <!--Single Malt Whisky-->
+            <div class="row col-12 mx-2 menu-item cat-smw">
+                <div class="text-start">
+                    <h1 class="custom-gold-txt mb-3 display-5 fw-semibold">Single Malt Whisky</h1>
+                    <div class="col-12 mb-3">
 <h3 class="display-6 custom-gold-txt mb-0 fst-italic">Glenfiddich 12 Yrs</h3>
 	<div class="d-flex justify-content-between">
 		<div>Bottle</div>
@@ -297,14 +309,15 @@
 		<div>25 $</div>
 	</div>
 </div>
+                </div>
+                	<hr class="my-5 border border-white">
             </div>
-        </div>
-        	<hr class="mx-5 my-5 border border-white">
-        <!-- Whisky-->
-        <div class="row mx-2">
-            <div class="col-12 text-start">
-                <h1 class="custom-gold-txt mb-3 display-5 fw-semibold">Whisky</h1>
-                <div class="col-12 mb-3">
+
+            <!-- Whisky-->
+            <div class="row col-12 mx-2 menu-item cat-whisky">
+                <div class="text-start">
+                    <h1 class="custom-gold-txt mb-3 display-5 fw-semibold">Whisky</h1>
+                    <div class="col-12 mb-3">
 <h3 class="display-6 custom-gold-txt mb-0 fst-italic">Johnnie Walker Red Label</h3>
 	<div class="d-flex justify-content-between">
 		<div>Bottle</div>
@@ -436,14 +449,15 @@
 		<div>5 $</div>
 	</div>
 </div>
+                </div>
+                	<hr class="my-5 border border-white">
             </div>
-        </div>
-        	<hr class="mx-5 my-5 border border-white">
-        <!-- Gin-->
-        <div class="row mx-2">
-            <div class="col-12 text-start">
-                <h1 class="custom-gold-txt mb-3 display-5 fw-semibold">Gin</h1>
-                <div class="col-12 mb-3">
+
+            <!-- Gin-->
+            <div class="row col-12 mx-2 menu-item cat-gin">
+                <div class="text-start">
+                    <h1 class="custom-gold-txt mb-3 display-5 fw-semibold">Gin</h1>
+                    <div class="col-12 mb-3">
 <h3 class="display-6 custom-gold-txt mb-0 fst-italic">Mother Of Eight</h3>
 	<div class="d-flex justify-content-between">
 		<div>Bottle</div>
@@ -498,14 +512,15 @@
 		<div>10 $</div>
 	</div>
 </div>
+                </div>
+                	<hr class="my-5 border border-white">
             </div>
-        </div>
-        	<hr class="mx-5 my-5 border border-white">
-        <!-- Rhum-->
-        <div class="row mx-2">
-            <div class="col-12 text-start">
-                <h1 class="custom-gold-txt mb-3 display-5 fw-semibold">Rhum</h1>
-                <div class="col-12 mb-3">
+
+            <!-- Rhum-->
+            <div class="row col-12 mx-2 menu-item cat-rhum">
+                <div class="text-start">
+                    <h1 class="custom-gold-txt mb-3 display-5 fw-semibold">Rhum</h1>
+                    <div class="col-12 mb-3">
 <h3 class="display-6 custom-gold-txt mb-0 fst-italic">Captain Morgan Spiced</h3>
 	<div class="d-flex justify-content-between">
 		<div>Bottle</div>
@@ -527,18 +542,19 @@
 		<div>5 $</div>
 	</div>
 </div>
+                </div>
+                	<hr class="my-5 border border-white">
             </div>
-        </div>
-        	<hr class="mx-5 my-5 border border-white">
-        <!-- Vodka-->
-        <div class="row mx-2">
-            <div class="col-12 text-start">
-                <h1 class="custom-gold-txt mb-3 display-5 fw-semibold">Vodka</h1>
-                <div class="col-12 mb-3">
+
+            <!-- Vodka-->
+            <div class="row col-12 mx-2 menu-item cat-vodka">
+                <div class="text-start">
+                    <h1 class="custom-gold-txt mb-3 display-5 fw-semibold">Vodka</h1>
+                    <div class="col-12 mb-3">
 <h3 class="display-6 custom-gold-txt mb-0 fst-italic">Stolichnaya Red</h3>
 	<div class="d-flex justify-content-between">
 		<div>Bottle</div>
-		<div>20 $</div>
+		<div>30 $</div>
 	</div>
 	<div class="d-flex justify-content-between">
 		<div>Glass</div>
@@ -549,7 +565,7 @@
 <h3 class="display-6 custom-gold-txt mb-0 fst-italic">Stolichnaya Gold</h3>
 	<div class="d-flex justify-content-between">
 		<div>Bottle</div>
-		<div>30 $</div>
+		<div>40 $</div>
 	</div>
 	<div class="d-flex justify-content-between">
 		<div>Glass</div>
@@ -582,7 +598,7 @@
 <h3 class="display-6 custom-gold-txt mb-0 fst-italic">Smirnoff Red</h3>
 	<div class="d-flex justify-content-between">
 		<div>Bottle</div>
-		<div>20 $</div>
+		<div>30 $</div>
 	</div>
 	<div class="d-flex justify-content-between">
 		<div>Glass</div>
@@ -593,21 +609,22 @@
 <h3 class="display-6 custom-gold-txt mb-0 fst-italic">Russian Standard</h3>
 	<div class="d-flex justify-content-between">
 		<div>Bottle</div>
-		<div>20 $</div>
+		<div>30 $</div>
 	</div>
 	<div class="d-flex justify-content-between">
 		<div>Glass</div>
 		<div>3 $</div>
 	</div>
 </div>
+                </div>
+                	<hr class="my-5 border border-white">
             </div>
-        </div>
-        	<hr class="mx-5 my-5 border border-white">
-        <!-- Tequila-->
-        <div class="row mx-2">
-            <div class="col-12 text-start">
-                <h1 class="custom-gold-txt mb-3 display-5 fw-semibold">Tequila</h1>
-                <div class="col-12 mb-3">
+
+            <!-- Tequila-->
+            <div class="row col-12 mx-2 menu-item cat-tequila">
+                <div class="text-start">
+                    <h1 class="custom-gold-txt mb-3 display-5 fw-semibold">Tequila</h1>
+                    <div class="col-12 mb-3">
 <h3 class="display-6 custom-gold-txt mb-0 fst-italic">Jose Cuervo Silver</h3>
 	<div class="d-flex justify-content-between">
 		<div>Bottle</div>
@@ -651,14 +668,15 @@
 		<div>5 $</div>
 	</div>
 </div>
+                </div>
+                	<hr class="my-5 border border-white">
             </div>
-        </div>
-        	<hr class="mx-5 my-5 border border-white">
-        <!-- Liqueuer-->
-        <div class="row mx-2">
-            <div class="col-12 text-start">
-                <h1 class="custom-gold-txt mb-3 display-5 fw-semibold">Liqueur</h1>
-                <div class="col-12 mb-3">
+
+            <!-- Liqueuer-->
+            <div class="row col-12 mx-2 menu-item cat-liqueuer">
+                <div class="text-start">
+                    <h1 class="custom-gold-txt mb-3 display-5 fw-semibold">Liqueur</h1>
+                    <div class="col-12 mb-3">
 <h3 class="display-6 custom-gold-txt mb-0 fst-italic">Jagermeister</h3>
 	<div class="d-flex justify-content-between">
 		<div>Bottle</div>
@@ -669,14 +687,15 @@
 		<div>5 $</div>
 	</div>
 </div>
+                </div>
+                	<hr class="my-5 border border-white">
             </div>
-        </div>
-        	<hr class="mx-5 my-5 border border-white">
-        <!-- Wine-->
-        <div class="row mx-2">
-            <div class="col-12 text-start">
-                <h1 class="custom-gold-txt mb-3 display-5 fw-semibold">Wine</h1>
-                <div class="col-12 mb-3">
+
+            <!-- Wine-->
+            <div class="row col-12 mx-2 menu-item cat-wine">
+                <div class="text-start">
+                    <h1 class="custom-gold-txt mb-3 display-5 fw-semibold">Wine</h1>
+                    <div class="col-12 mb-3">
 <h3 class="display-6 custom-gold-txt mb-0 fst-italic">Ixsir Altitude Blanc</h3>
 	<div class="d-flex justify-content-between">
 		<div>Bottle</div>
@@ -776,14 +795,15 @@
 		<div>5 $</div>
 	</div>
 </div>
+                </div>
+                	<hr class="my-5 border border-white">
             </div>
-        </div>
-        	<hr class="mx-5 my-5 border border-white">
-        <!-- Martini-->
-        <div class="row mx-2">
-            <div class="col-12 text-start">
-                <h1 class="custom-gold-txt mb-3 display-5 fw-semibold">Martini</h1>
-                <div class="col-12 mb-3">
+
+            <!-- Martini-->
+            <div class="row col-12 mx-2 menu-item cat-martini">
+                <div class="text-start">
+                    <h1 class="custom-gold-txt mb-3 display-5 fw-semibold">Martini</h1>
+                    <div class="col-12 mb-3">
 <h3 class="display-6 custom-gold-txt mb-0 fst-italic">Martini Sweet</h3>
 	<div class="d-flex justify-content-between">
 		<div>Bottle</div>
@@ -827,19 +847,21 @@
 		<div>5 $</div>
 	</div>
 </div>
-            </div>
-        </div>
-        	<hr class="mx-5 my-5 border border-white">
-        <!-- Shots-->
-        <div class="row mx-2">
-            <div class="col-12 text-start">
-                <h1 class="custom-gold-txt mb-3 display-5 fw-semibold">Shots</h1>
-                <div class="col-12 mb-3">
-                    <h3 class="display-6 custom-gold-txt mb-0 fst-italic">Any shot for <span class="text-white">3 $</span> only</h3>
                 </div>
+                	<hr class="my-5 border border-white">
+            </div>
+
+            <!-- Shots-->
+            <div class="row col-12 mx-2 menu-item cat-shots">
+                <div class="text-start">
+                    <h1 class="custom-gold-txt mb-3 display-5 fw-semibold">Shots</h1>
+                    <div class="col-12 mb-3">
+                        <h3 class="display-6 custom-gold-txt mb-0 fst-italic">Any shot for <span class="text-white">3 $</span> only</h3>
+                    </div>
+                </div>
+                	<hr class="my-5 border border-white">
             </div>
         </div>
-        	<hr class="mx-5 my-5 border border-white">
         <div class="row mx-2">
             <div class="col-12">
                 <span class="custom-gold-txt fs-2">
@@ -848,6 +870,9 @@
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src='//npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js'></script>
+    <script src='main.js'></script>
 </body>
 
 </html>
