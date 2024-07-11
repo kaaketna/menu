@@ -1,0 +1,76 @@
+.custom-gold-bg {
+    background-color: #c99d54;
+}
+
+.custom-gold-txt {
+    color: #c99d54;
+}
+
+.custom-font-size {
+    font-size: 18px;
+}
+
+.special-a-link {
+    color: #c99d54;
+}
+
+.special-a-link:hover {
+    color: #c99d54;
+}
+
+.menu #menu-cat {
+    padding: 0;
+    margin: 0 auto 0 auto;
+    list-style: none;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.menu #menu-cat li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 16px 10px 16px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1;
+    color: #c99d54;
+    margin: 0 3px 10px 3px;
+    transition: all ease-in-out 0.3s;
+    background: #000;
+    border: 2px solid #c99d54;
+    border-radius: 50px;
+}
+
+.menu #menu-cat li:hover,
+.menu #menu-cat li.cat-active {
+    color: #fff;
+    background: #c99d54;
+}
+
+.menu #menu-cat li:last-child {
+    margin-right: 0;
+}
+
+.arsenal-sc-regular {
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.arsenal-sc-bold {
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.arsenal-sc-regular-italic {
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.arsenal-sc-bold-italic {
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
