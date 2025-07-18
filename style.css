@@ -1,13 +1,9 @@
 :root {
-    --gold: #e20001;
+    --cust-red: #e20001;
 }
 
-.custom-gold-bg {
-    background-color: var(--gold);
-}
-
-.custom-gold-txt {
-    color: var(--gold);
+.custom-red-txt {
+    color: var(--cust-red);
 }
 
 .custom-font-size {
@@ -15,11 +11,11 @@
 }
 
 .special-a-link {
-    color: var(--gold);
+    color: var(--cust-red);
 }
 
 .special-a-link:hover {
-    color: var(--gold);
+    color: var(--cust-red);
 }
 
 .menu #menu-cat {
@@ -37,18 +33,18 @@
     font-size: 17px;
     font-weight: 500;
     line-height: 1;
-    color: var(--gold);
+    color: var(--cust-red);
     margin: 0 3px 10px 3px;
     transition: all ease-in-out 0.3s;
     background: #000;
-    border: 2px solid var(--gold);
+    border: 2px solid var(--cust-red);
     border-radius: 50px;
 }
 
 .menu #menu-cat li:hover,
 .menu #menu-cat li.cat-active {
     color: #fff;
-    background: var(--gold);
+    background: var(--cust-red);
 }
 
 .menu #menu-cat li:last-child {
