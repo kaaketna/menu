@@ -1,9 +1,20 @@
 :root {
-    --cust-red: #e20001;
+    --kaaketna-yellow: #fbaf3c;
+    --kaaketna-red: #a8261e;
+    --kaaketna-dark: #3c1b0d;
+    --kaaketna-sesame: #fff1d6;
 }
 
 .custom-red-txt {
-    color: var(--cust-red);
+    color: var(--kaaketna-red);
+}
+
+.custom-yellow-txt {
+    color: var(--kaaketna-yellow);
+}
+
+.custom-bg-dark {
+    background-color: var(--kaaketna-dark);
 }
 
 .custom-font-size {
@@ -11,11 +22,11 @@
 }
 
 .special-a-link {
-    color: var(--cust-red);
+    color: var(--kaaketna-red);
 }
 
 .special-a-link:hover {
-    color: var(--cust-red);
+    color: var(--kaaketna-yellow);
 }
 
 .menu #menu-cat {
@@ -33,24 +44,25 @@
     font-size: 17px;
     font-weight: 500;
     line-height: 1;
-    color: var(--cust-red);
+    color: var(--kaaketna-yellow);
     margin: 0 3px 10px 3px;
     transition: all ease-in-out 0.3s;
-    background: #000;
-    border: 2px solid var(--cust-red);
+    background: var(--kaaketna-dark);
+    border: 2px solid var(--kaaketna-red);
     border-radius: 50px;
 }
 
 .menu #menu-cat li:hover,
 .menu #menu-cat li.cat-active {
     color: #fff;
-    background: var(--cust-red);
+    background: var(--kaaketna-red);
 }
 
 .menu #menu-cat li:last-child {
     margin-right: 0;
 }
 
+/* Arsenal font stays the same */
 .arsenal-sc-regular {
     font-family: "Arsenal SC", sans-serif;
     font-weight: 400;
